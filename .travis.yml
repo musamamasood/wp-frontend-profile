@@ -103,7 +103,7 @@ before_script:
 # All commands must exit with code 0 on success. Anything else is considered failure.
 script:
   # Change to the src folder
-  - cd src
+  - cd functions
   # Search for PHP syntax errors.
   - find . \( -name '*.php' \) -exec php -lf {} \;
   # Go back to the root before running further tests.
